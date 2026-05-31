@@ -318,12 +318,20 @@ return {
             code = "gld",
             name_override = "{white}${stat=(14)}",
         },
-        -- Hiding items after level 10 (Tomes, Scrolls, Elixirs, Lowest potions)
+        -- Hiding items after level 10 (Tomes, Scrolls, Elixirs)
         {
-            codes = {"vps","yps","gpm","opm","wms","tbk","ibk","tsc","isc","hp1","mp1"},
+            codes = {"vps","yps","gpm","opm","wms","tbk","ibk","tsc","isc"},
             pstat = { index = 12, op = ">=", value = 10 },
             hide = true,
             area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+        },
+        -- Hiding lowest potions after level 10 on stricter filters
+        {
+            codes = {"hp1","mp1"},
+            pstat = { index = 12, op = ">=", value = 10 },
+            hide = true,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
+            filter_levels = "2,3,4"
         },
         -- Hiding items after level 10 (Low quality gear, Normal items with less than 2 sockets)
         {
@@ -353,7 +361,8 @@ return {
             codes ={"hp2","mp2"},
             pstat = { index = 12, op = ">=", value = 20},
             hide = true,
-            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
+            filter_levels = "2,3,4"
         },
         {
             codes ={"gcv","gcy", "gcb", "gcg", "gcr", "gcw", "skc", "gck"},
@@ -366,7 +375,8 @@ return {
             codes ={"hp3","mp3"},
             pstat = { index = 12, op = ">=", value = 40},
             hide = true,
-            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
+            filter_levels = "2,3,4"
         },
         {
             codes ={"gnv","gny", "gnb", "gng", "gnr", "gnw", "snc", "gnk"},
@@ -379,7 +389,8 @@ return {
             codes ={"hp4","hp5","mp4","mp5"},
             pstat = { index = 12, op = ">=", value = 60},
             hide = true,
-            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
+            filter_levels = "2,3,4"
         },
         -- Leveling filter is handled based on Levels but this will show items the other strictness levels are hiding
         {
