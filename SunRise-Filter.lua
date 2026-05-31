@@ -651,6 +651,15 @@ return {
             border = {80, 180, 255, 255},
             background = {20, 40, 80, 190},
         },
+        -- Highlight superior unsocketed Sorceress-relevant bases on the ground
+        {
+            codes = {"sst","lst","cst","bst","wst","p55","p56","p57","p58","p59","8ss","8ls","8cs","8bs","8ws","q54","q55","q56","q57","q58","1ss","1ls","1cs","1bs","1ws","6ss","6ls","6cs","6bs","6ws","m29","m36","m11","mnb","9mn","0mn","m09","ob1","ob2","ob3","ob4","ob5","ob6","ob7","ob8","ob9","oba","obb","obc","obd","obe","obf"},
+            quality = "3",
+            sockets = "0",
+            prefix = "{blue}法师底材：",
+            border = {80, 180, 255, 255},
+            background = {20, 40, 80, 190},
+        },
         {
             codes = {"clk","xlk","ylk","qui","lea","hla","stu","rng","scl","chn","brs","spl","plt","fld","gth","ful","aar","ltp","shl","elv","2ui","2ea","2la","2tu","2ng","2cl","2hn","2rs","2pl","2lt","br2","xui","xea","xla","xtu","xng","xcl","xhn","xrs","xpl","xlt","xld","xth","xul","xar","xtp","xhh","xlv","4ui","4ea","4la","4tu","4ng","4cl","4hn","4rs","4pl","4lt","4ld","4th","4ul","4ar","4tp","yui","yea","yla","ytu","yng","ycl","yhn","yrs","ypl","ylt","yld","yth","yul","yar","ytp","yhh","ylv","uui","uea","ula","utu","ung","ucl","uhn","urs","upl","ult","uld","uth","uul","uar","utp","m06"},
             quality = "2,3",
