@@ -1,9 +1,9 @@
---- Filter Title: SunRise Filter v1.0.0
+--- Filter Title: SunRise Filter v1.0.1
 --- Filter Type: MultiStrict
---- Filter Description: v1.0.0 - Chinese hard-coded EasternSunLAN QoL filter based on Sully's QOL v0.3.6, with custom drop sounds and automatic strictness.
+--- Filter Description: v1.0.1 - Chinese hard-coded EasternSunLAN QoL filter based on Sully's QOL v0.3.6, with custom drop sounds and automatic strictness.
 --- Filter Link: https://raw.githubusercontent.com/AreChen/SunRise-Filter/refs/heads/main/SunRise-Filter.lua
 return {
-    reload = "{white}SunRise Filter {purple}v1.0.0",  -- Based on Sully's QOL v0.3.6. Big shout out to Squid and PlausibleSheep because this filter exists on their hard work.
+    reload = "{white}SunRise Filter {purple}v1.0.1",  -- Based on Sully's QOL v0.3.6. Big shout out to Squid and PlausibleSheep because this filter exists on their hard work.
     language = "enUS",
     filter_titles = { "SunRise Leveling", "SunRise Strict NM", "SunRise Very Strict Hell", "SunRise Ultra Strict Map+" },
     audioPlayback = true,
