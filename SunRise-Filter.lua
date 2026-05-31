@@ -5,7 +5,7 @@
 return {
     reload = "{white}SunRise Filter {purple}v1.0.0 {gray}(Sully 原版规则)",  -- **********   Big shout out to Squid and PlausibleSheep because this filter wouldn't exist without me plagiarizing their filters, features, and logic. They put in the hard work, I'm a hack.   ****************
     language = "enUS",
-    filter_titles = { "练级", "严格 - 噩梦", "非常严格 - 地狱（地图前）", "超严格 - 地图+" },
+    filter_titles = { "Leveling", "Strict - Nightmare", "Very-Strict - Hell (pre-maps)", "Uber-Strict - Maps+" },
     audioPlayback = true,
     audioVoice = 0,
     debug = false,
@@ -396,6 +396,13 @@ return {
         -- Strict: Hiding White, Yellow, and Orange ESR runes
         {
             codes = {"r01","r02","r03","r04","r05","r08","r09","r10","r11","r12","r15","r16","r17","r18","r19","r20","r21"}, 
+            hide = true,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
+            filter_levels = 2
+        },
+        -- Strict: Hiding normal health and mana potions
+        {
+            codes = {"hp1","hp2","hp3","hp4","hp5","mp1","mp2","mp3","mp4","mp5"},
             hide = true,
             area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
             filter_levels = 2
