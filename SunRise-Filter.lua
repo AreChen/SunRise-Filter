@@ -1,9 +1,9 @@
---- Filter Title: SunRise Filter v1.0.1
+--- Filter Title: SunRise Filter v1.0.2
 --- Filter Type: MultiStrict
---- Filter Description: v1.0.1 - Chinese hard-coded EasternSunLAN QoL filter based on Sully's QOL v0.3.6, with custom drop sounds and automatic strictness.
+--- Filter Description: v1.0.2 - Chinese hard-coded EasternSunLAN QoL filter based on Sully's QOL v0.3.6, with custom drop sounds and automatic strictness.
 --- Filter Link: https://raw.githubusercontent.com/AreChen/SunRise-Filter/refs/heads/main/SunRise-Filter.lua
 return {
-    reload = "{white}SunRise Filter {purple}v1.0.1",  -- Based on Sully's QOL v0.3.6. Big shout out to Squid and PlausibleSheep because this filter exists on their hard work.
+    reload = "{white}SunRise Filter {purple}v1.0.2",  -- Based on Sully's QOL v0.3.6. Big shout out to Squid and PlausibleSheep because this filter exists on their hard work.
     language = "enUS",
     filter_titles = { "SunRise Leveling", "SunRise Strict NM", "SunRise Very Strict Hell", "SunRise Ultra Strict Map+" },
     audioPlayback = true,
@@ -1473,7 +1473,7 @@ return {
             codes = {"01e","02e","04e","05e","07e","08e","09e","10e","11e","12e","13e","14e","15e","16e","18e","19e","20e","21e","22e","23e","24e","25e","26e","27e","28e","29e","30e","31e","32e","33e","34e","35e","36e","37e","38e","39e","01h","02k","03h","04h","05h","06h","07h","08h","09h","10h","11h","12k","13h","14h","15h","16h","17h","18h","19h","20h","21h","22k","23h","24h","25h","26h","27h","28h","29h","30h","31h","32k","33h","34h","35h","36h","37h","38h","39h","40h","41h","42k","43h","44h","45h","47h","48h","49h","50h","51h","52k","53h","54h","55h","56h","57h","58h","59h","60h","61h","62k","09i","10i","11i","12i","09j","10j"},
             border = {255,165,0,255}, -- Elite coupons for uber-strict without sound
             name_override = "{gray}精英：{gold}{name}",
-            filter_lvels = 4
+            filter_levels = 4
         },
         -- S-Tier Coupons: SOJ, Death Fathom, Arachnid Mesh, Veil of Steel, Shako, Tyrael's Might, Verdungo's, Waterwalk
         {
@@ -1836,49 +1836,49 @@ return {
             code = "gvb",
             border = {200, 150, 0, 255},
             name_override = "{purple}*完宝*",
-            filterlevels = "4"
+            filter_levels = "4"
         },
         {
             code = "gyb",
             border = {200, 150, 0, 255},
             name_override = "{yellow}*完宝*",
-            filterlevels = "4"
+            filter_levels = "4"
         },
         {
             code = "gbb",
             border = {200, 150, 0, 255},
             name_override = "{blue}*完宝*",
-            filterlevels = "4"
+            filter_levels = "4"
         },
         {
             code = "ggb",
             border = {200, 150, 0, 255},
             name_override = "{green}*完宝*",
-            filterlevels = "4"
+            filter_levels = "4"
         },
         {
             code = "grb",
             border = {200, 150, 0, 255},
             name_override = "{red}*完宝*",
-            filterlevels = "4"
+            filter_levels = "4"
         },
         {
             code = "gwb",
             border = {200, 150, 0, 255},
             name_override = "{white}*完宝*",
-            filterlevels = "4"
+            filter_levels = "4"
         },
         {
             code = "skb",
             border = {200, 150, 0, 255},
             name_override = "{gray}*完宝*",
-            filterlevels = "4"
+            filter_levels = "4"
         },
         {
             code = "gbk",
             border = {200, 150, 0, 255},
             name_override = "{black}*完宝*",
-            filterlevels = "4"
+            filter_levels = "4"
         },
         -- In game notification for all high LOD rune drops
             {   
