@@ -1,9 +1,9 @@
---- Filter Title: SunRise Filter v1.0.0 (Sully Original Rules)
+--- Filter Title: SunRise Filter v1.0.1 (Sully Original Rules)
 --- Filter Type: MultiStrict
 --- Filter Description: Sully's QoL v0.3.6 original rules with Chinese hard-coded display text only.
 --- Filter Link: https://raw.githubusercontent.com/AreChen/SunRise-Filter/refs/heads/sully-original-zhcn/SunRise-Filter.lua
 return {
-    reload = "{white}SunRise Filter {purple}v1.0.0 {gray}(Sully 原版规则)",  -- **********   Big shout out to Squid and PlausibleSheep because this filter wouldn't exist without me plagiarizing their filters, features, and logic. They put in the hard work, I'm a hack.   ****************
+    reload = "{white}SunRise Filter {purple}v1.0.1 {gray}(Sully 原版规则)",  -- **********   Big shout out to Squid and PlausibleSheep because this filter wouldn't exist without me plagiarizing their filters, features, and logic. They put in the hard work, I'm a hack.   ****************
     language = "enUS",
     filter_titles = { "Leveling", "Strict - Nightmare", "Very-Strict - Hell (pre-maps)", "Uber-Strict - Maps+" },
     audioPlayback = true,
@@ -230,43 +230,43 @@ return {
         {
             code = "gvb",
             location = "atvendor",
-            prefix = "{blue}非野蛮人武器：{gray}25-35 攻速|150-200 增强伤害|15-25 偷取生命|10-15 偷取法力\n{blue}野蛮人武器：{gray}+1-2 野蛮人技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 野蛮人技能|最大生命 10-15%%|20-30 力量|攻击最大伤害 +20-30\n{blue}项链：{gray}+1-2 野蛮人技能|最大生命 10-15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 野蛮人技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 野蛮人技能|20-30 快速格挡|80-100 增强防御|3-5 格挡几率\n{blue}腰带：{gray}+1 野蛮人技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 野蛮人技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 野蛮人技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 野蛮人技能|80-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 锻造锤 + 完美紫宝石 + 任意珠宝\n"
+            prefix = "{blue}非野蛮人武器：{gray}25-35 攻速|150-200 增强伤害|15-25 偷取生命|10-15 偷取法力\n{blue}野蛮人武器：{gray}+1-2 野蛮人技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 野蛮人技能|最大生命 10-15%%|20-30 力量|攻击最大伤害 +20-30\n{blue}护身符：{gray}+1-2 野蛮人技能|最大生命 10-15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 野蛮人技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 野蛮人技能|20-30 快速格挡|80-100 增强防御|3-5 格挡几率\n{blue}腰带：{gray}+1 野蛮人技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 野蛮人技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 野蛮人技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 野蛮人技能|80-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 锻造锤 + 完美紫宝石 + 任意珠宝\n"
         },
         -- Vendor tip
         {
             code = "gyb",
             location = "atvendor",
-            prefix = "{blue}非德鲁伊武器：{gray}25-35 攻速|150-200 增强伤害|25-40 法术伤害\n{blue}德鲁伊武器：{gray}+1-2 德鲁伊技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 德鲁伊技能|20-30 体力|最大生命 10-15%%|12-18 法术伤害\n{blue}项链：{gray}+1-2 德鲁伊技能|20-30 体力|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 德鲁伊技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 德鲁伊技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 德鲁伊技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 德鲁伊技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 德鲁伊技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 德鲁伊技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 泰拉尼姆矿石 + 完美黄宝石 + 任意珠宝\n"
+            prefix = "{blue}非德鲁伊武器：{gray}25-35 攻速|150-200 增强伤害|25-40 法术伤害\n{blue}德鲁伊武器：{gray}+1-2 德鲁伊技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 德鲁伊技能|20-30 体力|最大生命 10-15%%|12-18 法术伤害\n{blue}护身符：{gray}+1-2 德鲁伊技能|20-30 体力|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 德鲁伊技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 德鲁伊技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 德鲁伊技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 德鲁伊技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 德鲁伊技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 德鲁伊技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 泰拉尼姆矿石 + 完美黄宝石 + 任意珠宝\n"
         },
         -- Vendor tip
         {
             code = "ggb",
             location = "atvendor", 
-            prefix = "{blue}非亚马逊武器：{gray}25-35 攻速|150-200 增强伤害|50-100 额外准确率\n{blue}亚马逊武器：{gray}+1-2 亚马逊技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 亚马逊技能|30-45 敏捷|最大生命 10-15%%|最小攻击伤害 +15-25\n{blue}项链：{gray}+1-2 亚马逊技能|20-30 敏捷|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 亚马逊技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 亚马逊技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 亚马逊技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 亚马逊技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 亚马逊技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 亚马逊技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 蜘蛛丝 + 完美绿宝石 + 任意珠宝\n"
+            prefix = "{blue}非亚马逊武器：{gray}25-35 攻速|150-200 增强伤害|50-100 额外准确率\n{blue}亚马逊武器：{gray}+1-2 亚马逊技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 亚马逊技能|30-45 敏捷|最大生命 10-15%%|最小攻击伤害 +15-25\n{blue}护身符：{gray}+1-2 亚马逊技能|20-30 敏捷|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 亚马逊技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 亚马逊技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 亚马逊技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 亚马逊技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 亚马逊技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 亚马逊技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 蜘蛛丝 + 完美绿宝石 + 任意珠宝\n"
         },
         -- Vendor tip
         {
             code = "grb", 
             location = "atvendor", 
-            prefix = "{blue}非刺客武器：{gray}25-35 攻速|150-200 增强伤害|20-30 致命打击\n{blue}刺客武器：{gray}+1-2 刺客技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 刺客技能|30-45 敏捷|最大生命 10-15%%|击杀回复生命 20-30|击杀回复法力 10-20\n{blue}项链：{gray}+1-2 刺客技能|20-30 敏捷|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 刺客技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 刺客技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 刺客技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 刺客技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 刺客技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 刺客技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 龙石 + 完美红宝石 + 任意珠宝\n"
+            prefix = "{blue}非刺客武器：{gray}25-35 攻速|150-200 增强伤害|20-30 致命打击\n{blue}刺客武器：{gray}+1-2 刺客技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 刺客技能|30-45 敏捷|最大生命 10-15%%|击杀回复生命 20-30|击杀回复法力 10-20\n{blue}护身符：{gray}+1-2 刺客技能|20-30 敏捷|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 刺客技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 刺客技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 刺客技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 刺客技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 刺客技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 刺客技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 龙石 + 完美红宝石 + 任意珠宝\n"
         },
         -- Vendor tip
         {
             code = "skb", 
             location = "atvendor", 
-            prefix = "{blue}非死灵法师武器：{gray}25-35 攻速|150-200 增强伤害|20-30 压碎性打击\n{blue}死灵法师武器：{gray}+1-2 死灵法师技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 死灵法师技能|30-45 精力|最大生命 10-15%%|15-25 快速施法\n{blue}项链：{gray}+1-2 死灵法师技能|20-30 敏捷|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 死灵法师技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 死灵法师技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 死灵法师技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 死灵法师技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 死灵法师技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 死灵法师技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 龙石 + 完美红宝石 + 任意珠宝\n"
+            prefix = "{blue}非死灵法师武器：{gray}25-35 攻速|150-200 增强伤害|20-30 压碎性打击\n{blue}死灵法师武器：{gray}+1-2 死灵法师技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 死灵法师技能|30-45 精力|最大生命 10-15%%|15-25 快速施法\n{blue}护身符：{gray}+1-2 死灵法师技能|20-30 敏捷|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 死灵法师技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 死灵法师技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 死灵法师技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 死灵法师技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 死灵法师技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 死灵法师技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 龙石 + 完美红宝石 + 任意珠宝\n"
         },
         -- Vendor tip
         {
             code = "gwb", 
             location = "atvendor", 
-            prefix = "{blue}非圣骑士武器：{gray}25-35 攻速|150-200 增强伤害|对恶魔伤害 +200-300|对不死生物伤害 +200-300\n{blue}圣骑士武器：{gray}+1-2 圣骑士技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 圣骑士技能|20-30 力量|最大生命 10-15%%|15-25 全抗\n{blue}项链：{gray}+1-2 圣骑士技能|20-30 敏捷|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 圣骑士技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 圣骑士技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 圣骑士技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 圣骑士技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 圣骑士技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 圣骑士技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 龙石 + 完美红宝石 + 任意珠宝\n"
+            prefix = "{blue}非圣骑士武器：{gray}25-35 攻速|150-200 增强伤害|对恶魔伤害 +200-300|对不死生物伤害 +200-300\n{blue}圣骑士武器：{gray}+1-2 圣骑士技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 圣骑士技能|20-30 力量|最大生命 10-15%%|15-25 全抗\n{blue}护身符：{gray}+1-2 圣骑士技能|20-30 敏捷|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 圣骑士技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 圣骑士技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 圣骑士技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 圣骑士技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 圣骑士技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 圣骑士技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 龙石 + 完美红宝石 + 任意珠宝\n"
         },
         -- Vendor tip
         {
             code = "gbb", 
             location = "atvendor", 
-            prefix = "{blue}非法师武器：{gray}25-35 攻速|150-200 增强伤害|-15-25 敌人元素和毒素抗性\n{blue}法师武器：{gray}+1-2 法师技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 法师技能|20-30 精力|最大生命 10-15%%|-8-12 敌人元素和毒素抗性\n{blue}项链：{gray}+1-2 法师技能|20-30 敏捷|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 法师技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 法师技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 法师技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 法师技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 法师技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 法师技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 龙石 + 完美红宝石 + 任意珠宝\n"
+            prefix = "{blue}非法师武器：{gray}25-35 攻速|150-200 增强伤害|-15-25 敌人元素和毒素抗性\n{blue}法师武器：{gray}+1-2 法师技能|25-35 攻速|150-200 增强伤害\n{blue}戒指：{gray}+1-2 法师技能|20-30 精力|最大生命 10-15%%|-8-12 敌人元素和毒素抗性\n{blue}护身符：{gray}+1-2 法师技能|20-30 敏捷|最大生命 15%%|15-25 全抗\n{blue}胸甲：{gray}+1-2 法师技能|80-100 增强防御|15-25 全属性|10-15 物理抗性\n{blue}盾牌：{gray}+1-2 法师技能|20-30 快速格挡|3-5 格挡几率|80-100 增强防御\n{blue}腰带：{gray}+1 法师技能|20-30 打击恢复|80-100 增强防御|30-45 力量\n{blue}手套：{gray}+1 法师技能|20-30 攻速|80-100 增强防御|30-45 敏捷\n{blue}靴子：{gray}+1 法师技能|20-30 跑步/行走速度|80-100 增强防御|30-45 体力\n{blue}头盔：{gray}+1-2 法师技能|90-100 增强防御|30-45 精力|15-25 全抗\n{white}每个配方都会附加以下固定属性，并额外获得 1-4 条随机词缀\n{blue}魔法{gray}装备 + 龙石 + 完美红宝石 + 任意珠宝\n"
         },
         -- Vendor tip
         {
@@ -857,37 +857,37 @@ return {
         {
             code = "an3",
             location = {"onplayer","atvendor"},
-            prefix = "{green}装备时赋予 10 级祝福瞄准光环\n{white}与任意项链和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
+            prefix = "{green}装备时赋予 10 级祝福瞄准光环\n{white}与任意护身符和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
         },
         {
             code = "an4",
             location = {"onplayer","atvendor"},
-            prefix = "{red}装备时赋予 15 级专注光环\n{white}与任意项链和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
+            prefix = "{red}装备时赋予 15 级专注光环\n{white}与任意护身符和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
         },
         {
             code = "an5",
             location = {"onplayer","atvendor"},
-            prefix = "{purple}装备时赋予 20 级反抗光环\n{white}与任意项链和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
+            prefix = "{purple}装备时赋予 20 级反抗光环\n{white}与任意护身符和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
         },
         {
             code = "an6",
             location = {"onplayer","atvendor"},
-            prefix = "{yellow}装备时赋予 10 级活力光环\n{white}与任意项链和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
+            prefix = "{yellow}装备时赋予 10 级活力光环\n{white}与任意护身符和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
         },
         {
             code = "an7",
             location = {"onplayer","atvendor"},
-            prefix = "{gray}装备时赋予 30 级荆棘光环\n{white}与任意项链和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
+            prefix = "{gray}装备时赋予 30 级荆棘光环\n{white}与任意护身符和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
         },
         {
             code = "an8",
             location = {"onplayer","atvendor"},
-            prefix = "{Gold}装备时赋予 21 级信念光环\n{white}与任意项链和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
+            prefix = "{Gold}装备时赋予 21 级信念光环\n{white}与任意护身符和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
         },
         {
             code = "an9",
             location = {"onplayer","atvendor"},
-            prefix = "{Blue}装备时赋予 15 级冥想光环\n{white}与任意项链和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
+            prefix = "{Blue}装备时赋予 15 级冥想光环\n{white}与任意护身符和碎裂宝石合成以锻造：\n {red}稀有锻造材料\n"
         },
         -- Highlighting Uniques/Sets
             {   
@@ -997,7 +997,7 @@ return {
             notify = "\n{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*\n{red}*{green}*{blue}*{purple}* {gold}神话暗金 {red}*{green}*{blue}*{purple}*\n{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}",
             name_style = "Rainbow Group",
             prefix = "神话 ",
-            name_override = "项链", 
+            name_override = "护身符",
             background = {0, 0, 0, 255},
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
@@ -1410,7 +1410,7 @@ return {
             notify = "\n{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*\n{red}*{green}*{blue}*{purple}* {gold}神话暗金 {red}*{green}*{blue}*{purple}*\n{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}*{purple}*{red}*{green}*{blue}",
             name_style = "Rainbow Group",
             prefix = "神话 ",
-            name_override = "项链",
+            name_override = "护身符",
             background = {0, 0, 0, 255},
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
@@ -1438,7 +1438,7 @@ return {
             codes = {"01e","02e","04e","05e","07e","08e","09e","10e","11e","12e","13e","14e","15e","16e","18e","19e","20e","21e","22e","23e","24e","25e","26e","27e","28e","29e","30e","31e","32e","33e","34e","35e","36e","37e","38e","39e","01h","02k","03h","04h","05h","06h","07h","08h","09h","10h","11h","12k","13h","14h","15h","16h","17h","18h","19h","20h","21h","22k","23h","24h","25h","26h","27h","28h","29h","30h","31h","32k","33h","34h","35h","36h","37h","38h","39h","40h","41h","42k","43h","44h","45h","47h","48h","49h","50h","51h","52k","53h","54h","55h","56h","57h","58h","59h","60h","61h","62k","09i","10i","11i","12i","09j","10j"},
             border = {255,165,0,255}, -- Elite coupons for uber-strict without sound
             name_override = "{gray}精英：{gold}{name}",
-            filter_lvels = 4
+            filter_levels = 4
         },
         -- S-Tier Coupons: SOJ, Death Fathom, Arachnid Mesh, Veil of Steel, Shako, Tyrael's Might, Verdungo's, Waterwalk
         {
@@ -1801,136 +1801,136 @@ return {
         {
             code = "gvb",
             border = {200, 150, 0, 255},
-            name_override = "{purple}*完宝*",
-            filterlevels = "4"
+            name_override = "{purple}{name}",
+            filter_levels = "4"
         },
         {
             code = "gyb",
             border = {200, 150, 0, 255},
-            name_override = "{yellow}*完宝*",
-            filterlevels = "4"
+            name_override = "{yellow}{name}",
+            filter_levels = "4"
         },
         {
             code = "gbb",
             border = {200, 150, 0, 255},
-            name_override = "{blue}*完宝*",
-            filterlevels = "4"
+            name_override = "{blue}{name}",
+            filter_levels = "4"
         },
         {
             code = "ggb",
             border = {200, 150, 0, 255},
-            name_override = "{green}*完宝*",
-            filterlevels = "4"
+            name_override = "{green}{name}",
+            filter_levels = "4"
         },
         {
             code = "grb",
             border = {200, 150, 0, 255},
-            name_override = "{red}*完宝*",
-            filterlevels = "4"
+            name_override = "{red}{name}",
+            filter_levels = "4"
         },
         {
             code = "gwb",
             border = {200, 150, 0, 255},
-            name_override = "{white}*完宝*",
-            filterlevels = "4"
+            name_override = "{white}{name}",
+            filter_levels = "4"
         },
         {
             code = "skb",
             border = {200, 150, 0, 255},
-            name_override = "{gray}*完宝*",
-            filterlevels = "4"
+            name_override = "{gray}{name}",
+            filter_levels = "4"
         },
         {
             code = "gbk",
             border = {200, 150, 0, 255},
-            name_override = "{black}*完宝*",
-            filterlevels = "4"
+            name_override = "{black}{name}",
+            filter_levels = "4"
         },
         -- In game notification for all high LOD rune drops
             {   
             code = "23l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}马尔  {red}*{blue}*{green}*",
-            name_override = "{black}马尔符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Mal  {red}*{blue}*{green}*",
+            name_override = "{black}Mal Rune",
             border = {0, 0, 0, 255},
             background = {200, 150, 0, 255},
             audio = "mid.mp3"
         },
         {   
             code = "24l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}伊司特  {red}*{blue}*{green}*",
-            name_override = "{black}伊司特符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Ist  {red}*{blue}*{green}*",
+            name_override = "{black}Ist Rune",
             border = {0, 0, 0, 255},
             background = {200, 150, 0, 255},
             audio = "mid.mp3"
         },
         {   
             code = "25l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}古尔  {red}*{blue}*{green}*",
-            name_override = "{black}古尔符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Gul  {red}*{blue}*{green}*",
+            name_override = "{black}Gul Rune",
             border = {0, 0, 0, 255},
             background = {200, 150, 0, 255},
             audio = "mid.mp3"
         },
         {   
             code = "26l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}伐克斯  {red}*{blue}*{green}*",
-            name_override = "{red}伐克斯符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Vex  {red}*{blue}*{green}*",
+            name_override = "{red}Vex Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "27l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}欧姆  {red}*{blue}*{green}*",
-            name_override = "{red}欧姆符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Ohm  {red}*{blue}*{green}*",
+            name_override = "{red}Ohm Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "28l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}罗  {red}*{blue}*{green}*",
-            name_override = "{red}罗符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Lo  {red}*{blue}*{green}*",
+            name_override = "{red}Lo Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "29l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}瑟  {red}*{blue}*{green}*",
-            name_override = "{red}瑟符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Sur  {red}*{blue}*{green}*",
+            name_override = "{red}Sur Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "30l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}贝  {red}*{blue}*{green}*",
-            name_override = "{red}贝符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Ber  {red}*{blue}*{green}*",
+            name_override = "{red}Ber Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "31l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}乔  {red}*{blue}*{green}*",
-            name_override = "{red}乔符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Jah  {red}*{blue}*{green}*",
+            name_override = "{red}Jah Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "32l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}查姆  {red}*{blue}*{green}*",
-            name_override = "{red}查姆符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Cham  {red}*{blue}*{green}*",
+            name_override = "{red}Cham Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "33l",
-            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}萨德  {red}*{blue}*{green}*",
-            name_override = "{red}萨德符文",
+            notify = "{red}*{blue}*{green}*   {orange}高级符文掉落：{white}Zod  {red}*{blue}*{green}*",
+            name_override = "{red}Zod Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "mythical.mp3"
@@ -1945,40 +1945,40 @@ return {
         },
         {   
             code = "r43",
-            notify = "{orange}紫色东日符文：{name}",
-            name_override = "{purple}苏符文",
+            notify = "{orange}紫色东日符文：{purple}Su",
+            name_override = "{purple}Su Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "r44",
-            notify = "{orange}紫色东日符文：{name}",
-            name_override = "{purple}赫符文",
+            notify = "{orange}紫色东日符文：{purple}He",
+            name_override = "{purple}He Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "r45",
-            notify = "{orange}紫色东日符文：{name}",
-            name_override = "{purple}努符文",
+            notify = "{orange}紫色东日符文：{purple}Nu",
+            name_override = "{purple}Nu Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "r46",
-            notify = "{orange}紫色东日符文：{name}",
-            name_override = "{purple}沃符文",
+            notify = "{orange}紫色东日符文：{purple}Wo",
+            name_override = "{purple}Wo Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
         },
         {   
             code = "r50",
-            notify = "{orange}紫色东日符文：{name}",
-            name_override = "{purple}虚无符文",
+            notify = "{orange}紫色东日符文：{purple}Null",
+            name_override = "{purple}Null Rune",
             background = {255, 255, 255, 255 },
             border = {240, 0, 0, 230, 2},
             audio = "tink.mp3"
